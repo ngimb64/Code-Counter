@@ -1,8 +1,8 @@
-REM Example Usage:
-REM linecount.bat "/Path/To/Project" .py .js .txt
-
 @echo off
 setlocal
+
+REM Example Usage:
+REM linecount.bat "/Path/To/Project" .py .js .txt
 
 set "root=%~1"
 shift
